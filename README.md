@@ -1,6 +1,6 @@
 # HERU-Plots
 
-[`HERU-Plots`](https://github.com/HERU-modeling/HERU-Plots) provides example code for a number of different and unique plots that have been included in prior HERU publications. The goal of this repository is to have a single location for anyone to download reference code.
+[`HERU-Plots`](https://github.com/HERU-modeling/HERU-Plots) provides a single location for accessing example code from a number of unique plots that have been included in prior HERU publications. This repository is intended to be a living resource, and HERU team members are encouraged to contribute their own code for plots that they have created.
 
 # Instructions
 
