@@ -10,7 +10,7 @@ library(RColorBrewer)
 
 ## Load DSA output files
 # QALYs
-load(file = "data_input.RData")
+load(file = "Tornado Plot/data_input.RData")
 
 # Load data sets
 df_owsa_itt_ps <- l_owsa_itt_ps$df_owsa_itt_ps
