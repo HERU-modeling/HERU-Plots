@@ -55,8 +55,8 @@ plot_twsa_itt_ps_ly <- ggplot(df_twsa_itt_ps_scaled, aes(x = perc_improvement_tx
   scale_x_continuous(breaks = c(-.40, -.30, -.20, -.10, 0, .10, .20, .30, .40), labels = c("+40%", "+30%", "+20%", "+10%", "Base", "-10%", "-20%", "-30%", "-40%")) +
   scale_y_continuous(breaks = c(-.40, -.30, -.20, -.10, 0, .10, .20, .30, .40), labels = c("+40%", "+30%", "+20%", "+10%", "Base", "-10%", "-20%", "-30%", "-40%")) +
   labs(
-    x = "Change in hazard ratio on risk of treatment discontinuation (bup/NX vs. methadone)",
-    y = "Change in hazard ratio on mortality risk in treatment (bup/NX vs. methadone)"
+    x = "X Label",
+    y = "Y Label"
   ) +
   theme(
     axis.title.x = element_text(size = 8, hjust = 0.5),

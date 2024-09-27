@@ -82,7 +82,7 @@ p_tornado_itt_ps <- ggplot() +
     labels = v_order_parameters
   ) +
   xlab("Parameter") +
-  ylab("Incremental life years (bup/nx vs. methadone)") +
+  ylab("Incremental life years") +
   ylim(-3500, 0) +
   coord_flip()
 
