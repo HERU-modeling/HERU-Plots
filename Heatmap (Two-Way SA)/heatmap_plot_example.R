@@ -45,6 +45,7 @@ df_twsa_itt_ps_scaled <- df_twsa_itt_ps %>%
 plot_twsa_itt_ps_ly <- ggplot(df_twsa_itt_ps_scaled, aes(x = perc_improvement_tx, y = perc_improvement_death, fill = n_inc_qalys_adj_total_max_scaled)) +
   theme_bw() +
   geom_tile() +
+  # Default of midpoint = 0.5, can change this to other values to re-center the midpoint
   scale_fill_gradient2(
     low = "#FF0000",
     mid = "#FFFFCC",
