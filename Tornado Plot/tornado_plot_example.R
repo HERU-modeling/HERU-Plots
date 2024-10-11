@@ -16,7 +16,7 @@ load(file = "Tornado Plot/data_input.RData")
 df_owsa_itt_ps <- l_owsa_itt_ps$df_owsa_itt_ps
 
 # DSA labels
-df_dsa_ly_labels_itt_ps <- read.csv(file = "tornado_labels.csv", header = TRUE)
+df_dsa_ly_labels_itt_ps <- read.csv(file = "Tornado Plot/tornado_labels.csv", header = TRUE)
 
 # Subset by mean
 # Deterministic
@@ -82,9 +82,9 @@ p_tornado_itt_ps <- ggplot() +
     labels = v_order_parameters
   ) +
   xlab("Parameter") +
-  ylab("Incremental life years") +
+  ylab("Outcome measure") +
   ylim(-3500, 0) +
   coord_flip()
 
 # Output plots
-ggsave("tornado_plot_example.png", p_tornado_itt_ps, height = 5, width = 7, dpi = 320)
+ggsave("Tornado Plot/tornado_plot_example.png", p_tornado_itt_ps, height = 5, width = 7, dpi = 320)
